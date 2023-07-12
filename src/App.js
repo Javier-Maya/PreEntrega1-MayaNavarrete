@@ -24,8 +24,7 @@ function App() {
       </div>
       <Footer/>
     </body> 
-    
-    );
+  )
 }
 
 export default App;

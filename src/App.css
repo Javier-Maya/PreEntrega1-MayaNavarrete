@@ -30,11 +30,17 @@ body {
   text-decoration: none;
 }
 
-.botones{
-  display: flex;
+.logo-img{
+  width:55px;
 }
 
 .cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones{
   display: flex;
 }
 
@@ -54,19 +60,18 @@ Button{
   padding-bottom: 10px;
 }
 
-.imagenPura{
-  width: 20rem;
-  border-radius: 0.7rem;
-  margin: 1rem;
-}
-
 .cardProductos{
   background-image: linear-gradient(90deg, #00135f, #ec1815);
   border-radius: 5%;
   margin: 0.5rem;
   box-shadow: 0.4rem 0.4rem 0.4rem grey;
   text-align: center;
-  
+}
+
+.imagenProducto{
+  width: 18rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
 }
 
 .textoEnCard{
@@ -76,15 +81,10 @@ Button{
   margin-bottom: 12px;
 }
 
-.logo-img{
-  width:50px;
-}
-
 .footer {
   background: linear-gradient(to bottom, #00135f 50%, #ec1815 50%);
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   text-align: center;
-  bottom: 0;
   font-size: 1.8rem;
 }
