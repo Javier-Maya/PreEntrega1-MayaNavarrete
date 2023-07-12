@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; /*sacar puntos de lista*/
+  text-decoration: none; /*sacar subrayado*/
+}
+
+body {
+  background-image: url(./img/Hinchada_Universidad_de_Chile_azul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #00135f 50%, #ec1815 50%);
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  align-items: center;
+  justify-content:space-around;
+  display: flex;
+}
+
+.navbar ul .nav-item a{
+  padding: 10px 15px;
+  font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.botones{
+  display: flex;
+}
+
+.cart{
+  display: flex;
+}
+
+Button{
+  margin: 3%;
+  color: #000;
+  border-radius: 2%;
+}
+
+.containerProductos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  width: 75%;  
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.imagenPura{
+  width: 20rem;
+  border-radius: 0.7rem;
+  margin: 1rem;
+}
+
+.cardProductos{
+  background-image: linear-gradient(90deg, #00135f, #ec1815);
+  border-radius: 5%;
+  margin: 0.5rem;
+  box-shadow: 0.4rem 0.4rem 0.4rem grey;
+  text-align: center;
+  
+}
+
+.textoEnCard{
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.logo-img{
+  width:50px;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #00135f 50%, #ec1815 50%);
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  bottom: 0;
+  font-size: 1.8rem;
+}
